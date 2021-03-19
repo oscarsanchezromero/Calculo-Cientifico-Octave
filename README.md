@@ -9,5 +9,5 @@ estudiantes de estudios científicos y técnicos.
 
 
 
-Este material está bajo continua revisión, por lo que en el caso de detectar erratas 
+Este material está bajo continuo mantenimiento, por lo que en el caso de detectar erratas 
 no duden en ponerse en contacto con los autores para que puedan ser corregidas.
