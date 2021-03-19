@@ -12,7 +12,7 @@ function [x,p] = gausspiv(A,b)
     p([j,j+pos-1]) = p([j+pos-1,j]);
     % Anulación de los elementos bajo el pivote
     Ab(j+1:dim,j:dim+ncb) = Ab(j+1:dim,j:dim+ncb) - ...
-      Ab(j+1:dim,j)'*Ab(j,j:dim+ncb)/Ab(j,j);
+      Ab(j+1:dim,j)*Ab(j,j:dim+ncb)/Ab(j,j);
   endfor
   % Resolvemos por sustitución regresiva
   x = sustregr(Ab(1:dim,1:dim),Ab(1:dim,dim+1:dim+ncb));
